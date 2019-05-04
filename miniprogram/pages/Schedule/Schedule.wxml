@@ -1,2 +1,9 @@
 <!--miniprogram/pages/Schedule/Schedule.wxml-->
-<text>miniprogram/pages/Schedule/Schedule.wxml</text>
+<view animation="{{ani}}" bindtransitionend="end">
+  <view class="container" bindtouchstart="touchStart" bindtouchend="touchFinish" >
+    <text>miniprogram/pages/Schedule/Schedule.wxml</text>
+    <button>test</button>
+  </view>
+</view>
+<!--<view animation="{{tap_flag1? switch_animation1:switch_animation}}">
+-->

@@ -1,4 +1,5 @@
 // miniprogram/pages/to do list/ToDoList.js
+var app=getApp()
 Page({
 
   /**
@@ -26,7 +27,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    app.globalData.tap_flag1=true;
   },
 
   /**
